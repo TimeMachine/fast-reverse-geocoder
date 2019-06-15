@@ -1,0 +1,26 @@
+{
+  "name": "fast-reverse-geocoder",
+  "version": "1.0.0",
+  "description": "A high-performance, offline reverse geocoder in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node performanceTest.js",
+    "build": "node newtree.js"
+  },
+  "author": "Glenus",
+  "keywords": [
+    "geocoding",
+    "geocoder",
+    "reverse",
+    "offline"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "rbush": "^3.0.0"
+  },
+  "devDependencies": {
+    "country-iso": "^2.0.5",
+    "country-reverse-geocoding": "^0.2.2",
+    "which-country": "^1.0.0"
+  }
+}
